@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+
+# TensorFlow
+*.pb
+savedmodel/
+
+# Logs
+*.log
+logs/
+
+# Model artifacts
+models/
+checkpoints/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large dataset files (use Git LFS if needed)
+ai-model/data/*.png
+ai-model/data/*.jpg
+ai-model/data/*.dcm
+*.h5
+*.pkl
+
+# Dataset images are too large for GitHub
+ai-model/data/cancer/
+ai-model/data/normal/
+
+# Training outputs that can be regenerated
+ai-model/comprehensive_results/best_model.h5
+ai-model/comprehensive_results/tensorboard_logs/
+

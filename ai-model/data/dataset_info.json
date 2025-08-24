@@ -1,0 +1,14 @@
+{
+  "dataset_name": "NLST Enhanced Sample Dataset",
+  "source": "The Cancer Imaging Archive (TCIA) - NLST Collection",
+  "last_updated": "2025-08-23T23:08:22.397296",
+  "total_images": 1000,
+  "cancer_images": 500,
+  "normal_images": 500,
+  "image_format": "PNG",
+  "image_size": "224x224",
+  "dataset_size_mb": 55.47,
+  "github_safe": true,
+  "processing_notes": "Synthetic medical images for demonstration and development",
+  "citation": "National Lung Screening Trial Research Team. Radiology 2011;258(1):243-253"
+}

@@ -1,0 +1,17 @@
+{
+  "model_path": "comprehensive_results/lung_cancer_model.tflite",
+  "test_timestamp": "2025-08-24T04:17:43.675206",
+  "inference_time_ms": 5.507,
+  "input_shape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "output_shape": [
+    1,
+    1
+  ],
+  "test_output": 0.500981330871582,
+  "status": "success"
+}
